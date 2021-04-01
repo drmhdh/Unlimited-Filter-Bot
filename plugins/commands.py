@@ -265,7 +265,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "CASE STUDY", url="url="https://t.me/dental_case_study")
+                        "CASE STUDY", url="https://t.me/dental_case_study")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),

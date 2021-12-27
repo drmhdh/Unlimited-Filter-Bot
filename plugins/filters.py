@@ -24,7 +24,7 @@ from database.users_mdb import add_user, all_users
 
 from plugins.helpers import parser,split_quotes
 
-@Client.on_message(filters.command('echo') & filters.group)
+@Client.on_message(filters.command('echos') & filters.group)
 async def echo(bot, message):   
     ADMIN = int("532323191")
     if message.from_user.id == ADMIN:           
